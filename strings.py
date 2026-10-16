@@ -9,9 +9,9 @@ import math
 
 # He said, "John's program is easy to read!"
 
-# radius = 3
-# print("The area is", round(radius * radius * math.pi,2), end=' ')
-# print("and the perimeter is", 2*radius)
+radius = 3
+print("The area is", round(radius * radius * math.pi,2), end=' ')
+print("and the perimeter is", 2*radius)
 
 # n = 3
 # print(n+n)
@@ -32,7 +32,11 @@ import math
 s1 = input("Choose your Pokemon: ")
 s2 = input("Choose your second Pokemon: ")
 s3 = input("Choose your third Pokemon: ")
+s4 = input("Enter a number: ")
+
+
 
 print("Pokemon 1: " + s1)
 print("Pokemon 2: " + s2)
 print("Pokemon 3: " + s3)
+print(int(s4)+150)

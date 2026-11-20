@@ -1,6 +1,13 @@
 print("       MULTIPLICATION TABLE")
 print("  |", end='')
 for j in range(1,10):
-    print(" ",j,end='')
+    print("  ",j,end='')
 print() # jump to a new line!
-print("-------------------------------")
+print("---------------------------------------")
+
+#Display table body
+for i in range(1,10):
+    print(i, "|", end = '')
+    for j in range(1,10):
+        print(format(i*j,"4d"), end = '')
+    print()
